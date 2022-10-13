@@ -1,0 +1,25 @@
+# Basic responsive design principle
+
+  ## Fluid Layouts
+    - to allow webpage to adapt to the current viewport width (or even height)
+    - Use %(or vh/vw) unit instead pf px for elements that should adapt to viewport (usually layouts)
+    - Use max-width instead of width
+
+  ## Responsive units
+    - use rem unit instead of px for most lengths
+    - to make it easy to scale the entire layout down (or up) automatically
+
+  ## Flexible Images
+    - by default, images don't scale automatically as we change the viewport, so we need to fix that
+    - always use % for image dimensions, together with the max-width property
+
+  ## Media queries
+    - to change css styles on certain viewport widths (called breakpoints)  
+
+
+# Layout type
+ ## Float layout
+ ## Flexbox 
+  - 1 dimensional
+ ## CSS Grid 
+  - 2 dimensional 
